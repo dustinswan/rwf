@@ -43,7 +43,9 @@ nav ul {
   padding: 0;
   list-style-type: none;
   display: flex;
-  gap: 1.5em;
+}
+nav li:not(:first-child) {
+  margin-left: 1em;
 }
 nav a {
   text-decoration: none;
